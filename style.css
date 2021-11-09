@@ -1,0 +1,32 @@
+.aboutus{
+    background-color: white;
+   padding: 1%;
+   margin-top: 90%;
+   
+}
+
+
+.aboutus>pre:nth-child(2)
+{
+  font-size: 20px;
+  font:url("fontmy.ttf");
+  margin-left: 55px;
+  
+}
+.aboutus>pre:nth-child(4)
+{
+  margin-left: 450px;
+  align-items: center;
+}
+.aboutus>span:nth-child(6)
+{
+  margin-left: 570px;
+  font-size: 40px;
+}
+.aboutus>pre:nth-child(8)
+{
+  font-size: 18px;
+  font:url("fontmy.ttf");
+  margin-left: 580px;
+  
+}
