@@ -291,5 +291,152 @@ hr {
   width:50%;
 }
 
+/* kinjal part  */
+.section{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  display: inline-block;
+   margin-left: 40px;
+   margin-top: 25px;
+  position: relative;
+  width: 280px;
+  transition: 0.8s ease-out;
+}
+.image:hover {
+  transform: translateY(20px);
+  opacity: 0.8;
+}
+.image_img {
+  display: block;
+  width: 280px;
+  height: 360px;
+  border-radius: 15px;
+}
+.image_overlay {
+  position: absolute;
+  border-radius: 15px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #20f1e7;
+  font-family: "Jazz LET", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+.image_overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+.image_overlay:hover {
+  opacity: 1;
+}
+.image_overlay:hover > * {
+  transform: translateY(0);
+}
+.image_title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  font-style:oblique;
+}
+.image_description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  text-align: center;
+}
+button {
+  padding: 10px;
+  margin: 15px;
+  outline: none;
+  border: none;
+  margin-bottom: 25px;
+  border-radius: 43px;
+  background: rgb(172, 239, 241);
+  color: black;
+  font-weight:500;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+button:hover {
+  background: dodgerblue;
+  color: white;
+}
+button:hover > * {
+  transform: translateY(0);
+} 
 
+/* table content */
+table{
+  width:100%;
+  table-layout: fixed;
+}
+.tbl-header{
+  background-color: rgba(255,255,255,0.3);
+ }
+.tbl-content{
+  height:300px;
+  overflow-x:auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+th{
+  padding: 20px 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  color: rgb(13, 2, 77);
+  text-transform: uppercase;
+}
+td{
+  padding: 15px;
+  text-align: center;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  border-bottom: solid 1px rgba(255,255,255,0.1);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+.sectionQuiz{
+background: -webkit-linear-gradient(left, #7ef3e9, #2565c4);
+background: linear-gradient(to right, #7ef3e9, #2565c4);
+font-family: 'Roboto', sans-serif;
+}
+.sectionQuiz{
+margin: 50px;
+}
+
+/* Create  */
+.checkmark{
+list-style: none;
+font-size: 25px;
+padding-left: 100px;
+}
+
+.checkmark li::before{
+content: "\2713\0020";
+color: #0074D9;
+font-size: 22px;
+font-weight: 900;
+}
+
+.createButton {
+background-color: #e67572;
+padding: 16px;
+border: none;
+opacity: 0.8;
+text-align: center;
+justify-content: center;
+}
 
