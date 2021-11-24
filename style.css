@@ -90,7 +90,7 @@ p{
 }
 
 section{
-  background-image: url("https://thumbs.dreamstime.com/z/study-time-words-cork-background-closeup-82883471.jpg");
+  background-image: url("https://images6.alphacoders.com/480/480421.jpg");
   margin-top: 50px;
   background-position: center;
   margin-left: 650px;
@@ -99,6 +99,7 @@ section{
   height:100%;
   position:absolute;
   background-repeat:no-repeat;
+  background-position:cover;
 
 }
 section p{
